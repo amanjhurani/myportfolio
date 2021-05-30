@@ -1,0 +1,112 @@
+.Project {
+    width: 100%;
+    background:#121212;
+    height:100%;
+    color:#fff;
+    font-family: 'Roboto Condensed', 'Lucida Sans Typewriter', 'Arial';
+    display:flex;
+    justify-content:center;
+    padding-bottom: 7vh;
+}
+
+.Project-background {
+    width: 90%;
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    padding: 20px;
+    grid-gap: 30px;
+}
+.card{
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(54, 54, 54, 0.18);
+    height: 100%;
+}
+.container{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+.container img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.container:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+.card1>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #0100ec,
+        #fb36f4
+    );
+}
+.card2>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #2bdce3,
+        #42ffdb
+    );
+}
+.card3>.container:after{
+    background-image: linear-gradient(
+        135deg,
+        #ffab1d,
+        #f8501c
+    );
+}
+.details{
+    padding: 20px 10px;
+}
+.details>h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details>p{
+    color: #a0a0a0;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+        padding: 20px;
+        grid-gap: 30px;
+    }
+    .Project-background {
+        width: 100%;
+    }
+    
+
+}

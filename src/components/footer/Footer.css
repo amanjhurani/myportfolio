@@ -1,0 +1,63 @@
+.Footer {
+    width:100%;
+    color: #fff;
+    font-family: 'Roboto Condensed', 'Lucida Sans Typewriter', 'Arial';
+    background: #1c1b29;
+    height:38vh;
+   
+}
+
+.Footer .Footer-background-upper {
+    display: flex;
+    height:80%;
+    align-items:center;
+
+}
+.Footer-content {
+    position: relative;
+    width:34%;
+    text-align: center;
+
+    
+}
+
+.Footer-content-two {
+    position: relative;
+    width:66%;
+    text-align: center;
+
+    
+}
+.Footer-background-lower {
+    height: 20%;
+    background: #211f31fd;
+    text-align: center;
+    line-height: 8vh;
+}
+
+.Footer-content ul li {
+    list-style: none;
+    margin: 0 0 4vh 0;
+    
+}
+
+.Footer-resume-button {
+    width:20%;
+    height:5vh;
+    color:#fff;
+    font-family: 'Roboto Condensed', 'Lucida Sans Typewriter', 'Arial';
+    background: transparent;
+    font-size: 3vh;
+    border: none;
+    box-shadow: 3px 3px 10px #0007;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+.Footer-resume-button {
+    width:50%;
+}
+}
