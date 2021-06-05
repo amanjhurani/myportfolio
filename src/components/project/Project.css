@@ -13,6 +13,9 @@
     width: 90%;
 }
 
+.Project-title {
+    text-align: center;
+}
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -34,12 +37,20 @@ body{
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     padding: 20px;
     grid-gap: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 .card{
     background-color: #1c1b29;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(54, 54, 54, 0.18);
     height: 100%;
+    /* overflow: scroll; */
 }
 .container{
     position: relative;
@@ -106,6 +117,9 @@ body{
     }
     .Project-background {
         width: 100%;
+    }
+    .card p{
+        display: none;
     }
     
 

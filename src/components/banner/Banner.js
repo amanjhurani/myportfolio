@@ -172,20 +172,22 @@ class Banner extends React.Component {
     return (
     <div className="Banner">
         <div className="Banner-background">
+          <div className="emojis">
             <div id="redball">😀</div>
-	        <div id="greenball">😁</div>
-	        <div id="blueball">😂</div>
-	        <div id="aball">🤣</div>
-	        <div id="bball">😅</div>
-	        <div id="cball">😆</div>
-	        <div id="dball">😋</div>
-	        <div id="eball">😎</div>
-	        <div id="fball">🥰</div>
-	        <div id="gball">🥱</div>
-	        <div id="hball">😐</div>
-	        <div id="iball">😛</div>
-	        <div id="jball">😜</div>
-	        <div id="kball">😴</div>
+            <div id="greenball">😁</div>
+            <div id="blueball">😂</div>
+            <div id="aball">🤣</div>
+            <div id="bball">😅</div>
+            <div id="cball">😆</div>
+            <div id="dball">😋</div>
+            <div id="eball">😎</div>
+            <div id="fball">🥰</div>
+            <div id="gball">🥱</div>
+            <div id="hball">😐</div>
+            <div id="iball">😛</div>
+            <div id="jball">😜</div>
+            <div id="kball">😴</div>
+          </div>
             
             <div className="Banner-heading">
                 <p>Hi,</p>

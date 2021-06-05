@@ -17,8 +17,6 @@
     position: relative;
     width:34%;
     text-align: center;
-
-    
 }
 
 .Footer-content-two {
@@ -51,6 +49,11 @@
     border: none;
     box-shadow: 3px 3px 10px #0007;
     cursor: pointer;
+    
+}
+
+.Footer-resume-button:focus {
+    outline: none !important;
 }
 
 

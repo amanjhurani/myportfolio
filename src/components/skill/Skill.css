@@ -12,8 +12,7 @@
     width:100%;
     position: relative;
     background-attachment: fixed;
-    background:#011f41;
-    bottom:10px;
+    background:#0d0c6d;
 
 }
 
@@ -22,8 +21,8 @@
     font-family: 'Roboto Condensed', 'Lucida Sans Typewriter', 'Arial';
     text-align: center;
     font-size:20px;
-    opacity: 0.7;
-    margin-top: 10rem;
+    opacity: 0.8;
+    margin-top: 8rem;
     margin-right:9rem ;
     margin-left:9rem ;
     position: relative;
@@ -37,7 +36,7 @@
 @media only screen and (max-width: 600px) {
     
 .Skill-introduction {
-    font-size:10px;
+    font-size:11px;
     margin-top: 5rem;
     margin-right:3rem ;
     margin-left:3rem 
