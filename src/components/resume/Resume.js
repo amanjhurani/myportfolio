@@ -15,7 +15,7 @@ export default function Resume() {
           <div className="Resume-Links">
                 <a href="mailto:amanjhurani5@gmail.com">
                   amanjhurani5@gmail.com,&nbsp;
-                </a>
+                </a><br />
                 <a href="https://">(+91)&nbsp;80007&nbsp;88222,&nbsp;</a> <br />
                 <a href="https://github.com/amanjhurani">Github,&nbsp;</a>
                 <a href="https://www.linkedin.com/in/amanjhurani/">Linkedin</a>

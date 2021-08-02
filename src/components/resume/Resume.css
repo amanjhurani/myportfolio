@@ -22,7 +22,7 @@
 .Resume-Background {
     border: 2px solid #fff;
     height: 100%;
-    width: 60%;
+    width: 80%;
     border-radius: 10px;
     background: #1c1b29;
     box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
@@ -71,4 +71,10 @@ padding-bottom: 3rem;
     box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (max-width: 600px) {
+    .Resume-Background {
+        width: 95%;
+    }
 }
