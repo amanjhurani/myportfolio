@@ -121,17 +121,10 @@ class Banner extends React.Component {
           var blueball= new ball("blueball");
           var aball= new ball("aball");
           var bball= new ball("bball");
-          var eball= new ball("eball");
           var cball= new ball("cball");
           var dball= new ball("dball");
-          var fball= new ball("fball");
-          var gball= new ball("gball");
-          var hball= new ball("hball");
-          var iball= new ball("iball");
-          var jball= new ball("jball");
-          var kball= new ball("kball");
 
-          var balls= [ redball, greenball, blueball, aball, bball, cball, eball, dball, fball, gball, hball, iball, kball, jball ];
+          var balls= [ redball, greenball, blueball, aball, bball, cball, dball];
           
           // Random speed
           function randomSpeed(i) {
@@ -158,13 +151,6 @@ class Banner extends React.Component {
             bball.paint();
             cball.paint();
             dball.paint();
-            eball.paint();
-            fball.paint();
-            gball.paint();
-            hball.paint();
-            iball.paint();
-            jball.paint();
-            kball.paint();
           }, 15);
           
     }
@@ -173,20 +159,13 @@ class Banner extends React.Component {
     <div className="Banner">
         <div className="Banner-background">
           <div className="emojis">
-            <div id="redball">😀</div>
-            <div id="greenball">😁</div>
-            <div id="blueball">😂</div>
-            <div id="aball">🤣</div>
-            <div id="bball">😅</div>
-            <div id="cball">😆</div>
-            <div id="dball">😋</div>
-            <div id="eball">😎</div>
-            <div id="fball">🥰</div>
-            <div id="gball">🥱</div>
-            <div id="hball">😐</div>
-            <div id="iball">😛</div>
-            <div id="jball">😜</div>
-            <div id="kball">😴</div>
+            <div id="redball">🧑‍💻</div>
+            <div id="greenball">✍️</div>
+            <div id="blueball">💻</div>
+            <div id="aball">⌛</div>
+            <div id="bball">☕</div>
+            <div id="cball">⌨️</div>
+            <div id="dball">🖱️</div>
           </div>
             
             <div className="Banner-heading">

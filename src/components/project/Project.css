@@ -74,8 +74,8 @@ body{
 .card1>.container:after{
     background-image: linear-gradient(
         135deg,
-        #0100ec,
-        #fb36f4
+        #1c1b29,
+        #1c1b29
     );
 }
 .card2>.container:after{
