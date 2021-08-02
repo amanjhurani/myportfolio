@@ -135,8 +135,8 @@ class Banner extends React.Component {
           
           // Random speed
           function randomSpeed(i) {
-            balls[i].speed.x= 500*(Math.random()-0.5);
-            balls[i].speed.y= 500*(Math.random()-0.5);
+            balls[i].speed.x= 800*(Math.random()-0.5);
+            balls[i].speed.y= 800*(Math.random()-0.5);
           }
           
           // Initial speed

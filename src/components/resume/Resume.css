@@ -1,0 +1,74 @@
+.Resume {
+    color:#fff;
+    font-family: 'Roboto Condensed', 'Lucida Sans Typewriter', 'Arial';
+    margin-bottom: 2rem;
+}
+.Resume-Section-Title {
+    font-size:20px;
+    font-weight:bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.Resume-Title {
+    text-align: center;
+}
+.Resume-Background-Wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.Resume-Background {
+    border: 2px solid #fff;
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    background: #1c1b29;
+    box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 6px 5px 0px rgba(0,0,0,0.75);
+padding-top: 10px;
+padding-bottom: 3rem;
+
+}
+
+.Resume-Name {
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.Resume-Links{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Resume-Summary {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.Resume-Skills {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.Resume-Experience {
+    width: 80%;
+    margin: auto;
+}
+
+.Resume-Experience-Job {
+    margin-top: 20px;
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+}
